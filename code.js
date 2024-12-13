@@ -10,6 +10,10 @@ let t2 = document.getElementById('t2ONG');
 let paraONG = document.getElementById('paraONG');
 
 let h1obj = document.getElementById('h1obj');
+let donimg = document.getElementById('donimg');
+let dondescription = document.getElementById('dondescription');
+let id2 = document.getElementById('id2');
+
 
 let vinda = document.getElementById('vinda');
 let ida = document.getElementById('ida');
@@ -79,36 +83,69 @@ let pagina3 = () => {
 
 let f1 = () => {
     h1obj.innerHTML = 'Mesa';
+    donimg.src = 'fmesa.jpg';
+    dondescription.textContent = 'pois é casa, tenho uma mesa e não vou me mudar, estou colocando para a doação!';
+    id2.innerHTML = 'Brasília(DF) <br> 14/12/2024 <br> (50) 99885-1234';
 };
 let f2 = () => {
-    h1obj.innerHTML = 'Casaco';
+    h1obj.innerHTML = 'casaco';
+    donimg.src = 'casaco.jpg';
+    dondescription.textContent = 'Sei que estamos entrando para o inverno e eu queria doar um de meus casacos para quem precisar, ele é praticamente novo e só usei poucas vezes. Pode deixar que o envio fica comigo.';
+    id2.innerHTML = 'São Paulo(SP) <br> 14/05/2025 <br> (50) 54635-1234';
 };
 let f3 = () => {
-    h1obj.innerHTML = 'Livros';
+    h1obj.innerHTML = 'Livro';
+    donimg.src = 'flivros.webp';
+    dondescription.textContent = 'Já li toda a franquia de Senhor dos Anéis e é um espetáculo! Eu gostaria que outras pessoas tivessem a mesma oportunidade, estão em bom estado';
+    id2.innerHTML = 'Rio Grande do Norte(RN) <br> 23/12/2024 <br> (55) 92370-1234';
 };
 let f4 = () => {
     h1obj.innerHTML = 'Vitrola';
+    donimg.src = 'fvitrola.avif';
+    dondescription.textContent = 'já dancei muitas valsas com esta belezinha e ainda funciona! Está em bom estado e eu pago para entregar.';
+    id2.innerHTML = 'Mato Grosso do Sul(MS) <br> 10/12/2024 <br> (51) 23799-1234';
 };
 let f5 = () => {
     h1obj.innerHTML = 'Sofá';
+    donimg.src = 'fsofa.webp';
+    dondescription.textContent = 'Sofá de couro, só perdeu um pouco de leveza em cima por conta do uso. Estarei de mudanças e preciso doar este sofá pra já!';
+    id2.innerHTML = 'Espírito Santo(ES)<br> 13/12/2024 <br> (50) 99885-3457';
 };
 let f6 = () => {
     h1obj.innerHTML = 'Ferramentas';
+    donimg.src = 'ftool.jpg';
+    dondescription.textContent = 'Eu tenho esta caixa de ferramentas que tem todos os tamanhos de fenda e está em bom uso. Só é um pouco velha devido ao tempo de uso mas está em perfeito estado.';
+    id2.innerHTML = 'Rio de Janeiro(RJ)<br> 13/07/2024 <br> (55) 28455-1234';
 };
 let f7 = () => {
     h1obj.innerHTML = 'Bicicleta';
+    donimg.src = 'fbike.webp';
+    dondescription.textContent = 'Estou doando esta bike pois vou me mudar e não queria vender ela, ela não tem freio mas tem essas cestas pra carregar compras ou coisas do tipo, que é bastante útil, de preferência, que seja para alguém daqui de Recife ou região pois não posso pagar o frete.';
+    id2.innerHTML = 'Recife(PE) <br> 12/10/2024 <br> (50) 98543-1204';
 };
 let f8 = () => {
     h1obj.innerHTML = 'Patinete';
+    donimg.src = 'fpatinete.avif';
+    dondescription.textContent = 'Doação de patinete, pode servir tanto para crianças quanto para adultos se locomover ao seu trabalho. Em bom estado, não posso pagar o transporte.';
+    id2.innerHTML = 'Rio Grande do Sul(RS) <br> 13/12/2025 <br> (50) 99543-1904';
 };
 let f9 = () => {
     h1obj.innerHTML = 'Quadro';
+    donimg.src = 'fpic.webp';
+    dondescription.textContent = 'Gosto muito de fazer arte, como quadros assim. Conheci a ideia do projeto e gostei muito, então resolvi fazes estes 3 quadros para colocar na doação aqui e deixar a sua casa mais colorida nestas festas de fim de ano. Pode deixxar que eu faço o envio, só entrar em contato comigo!';
+    id2.innerHTML = 'Minas Gerais(MG) <br> 20/12/2025 <br> (55) 97545-1987';
 };
 let f10 = () => {
     h1obj.innerHTML = 'Câmera Fotográfica';
+    donimg.src = 'fcam.jpg';
+    dondescription.textContent = 'Essa é uma câmera de muito tempo de uso mas ainda funciona, é carregada a pilha. Posso fazer a entrega somente no meu Estado, fora dele não posso cobrir o frete mas posso ajudar com uma parte, só falar comigo.';
+    id2.innerHTML = 'Brasília(DF) <br> 01/12/2025 <br> (50) 10025-1234';
 };
 let f11 = () => {
     h1obj.innerHTML = 'Muda de Mangueira';
+    donimg.src = 'fmang.webp';
+    dondescription.textContent = 'Essa é uma época de muita manga no meu sítio então estou fazendo mudas para plantiu, já tenho 40 como esta da foto, adubada e enxertada. Entre em contato comigo para envios.';
+    id2.innerHTML = 'Acre(AC) <br> 11/11/2025 <br> (50) 10285-8499';
 };
 
 

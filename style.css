@@ -6,11 +6,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Cutive+Mono&family=DM+Serif+Text:ital@0;1&family=Faculty+Glyphic&family=Hind+Mysuru:wght@300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Pixelify+Sans:wght@400..700&family=Quicksand:wght@300..700&family=Tiny5&family=Workbench&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     margin: 0;
     font-family: "Annie Use Your Telescope", cursive;
     font-weight: 800;
@@ -18,13 +18,13 @@ body{
     background-repeat: repeat;
 }
 
-#all1{
+#all1 {
     display: grid;
     color: rgb(117, 71, 25);
     grid-template-columns: auto, 3;
     grid-template-rows: auto, 3;
     background-color: rgb(204, 204, 204);
-    
+
     width: 80%;
     margin: auto;
     gap: 25px;
@@ -33,7 +33,7 @@ body{
     padding: 20px;
 }
 
-#all2{
+#all2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,9 +41,9 @@ body{
     color: rgb(85, 50, 16);
     grid-template-columns: auto, 3;
     grid-template-rows: auto, 4;
-    background-color:rgba(219, 182, 139, 0.856);
+    background-color: rgba(219, 182, 139, 0.856);
 
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); 
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
     width: 80%;
     margin: auto;
     margin-bottom: 7em;
@@ -52,7 +52,7 @@ body{
     border-radius: 20px;
 }
 
-#infodonate{
+#infodonate {
     display: flex;
     padding: 3em;
     margin-bottom: 0;
@@ -61,15 +61,40 @@ body{
     text-shadow: 2px 2px 1px rgba(145, 145, 145, 0.466);
     background-image: url(textura2.jpg);
     background-repeat: repeat;
-    
+
 
     font-family: "Hind Mysuru", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-weight: 300;
 }
 
-#caixa1{
+#informacoesdoe {
+    display: flex;
+    flex-direction: row;
+}
+
+#id1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#id2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.canto{
+    line-height: 15px;
+}
+
+#linkcorreio{
+    color: red;
+}
+
+#caixa1 {
     background-color: aliceblue;
     grid-column: 1/3;
     grid-row: 1/2;
@@ -79,25 +104,25 @@ body{
     align-items: center;
     justify-content: space-evenly;
 
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); 
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 
     font-family: "Hind Mysuru", sans-serif;
     line-height: 1.2;
     font-weight: 400;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
-    transition: all 0.7s ease; 
+    transition: all 0.7s ease;
 }
 
-a:hover{
+a:hover {
     font-size: 18px;
     transition: all 0.7s ease;
 }
 
-#logo{
+#logo {
     height: 100px;
     width: auto;
     border-radius: 50px;
@@ -105,7 +130,7 @@ a:hover{
     margin: 10px;
 }
 
-#logodon{
+#logodon {
     height: 50px;
     width: auto;
     color: aliceblue;
@@ -114,69 +139,69 @@ a:hover{
     align-items: center;
     padding: 0 1em 0 1em;
     border-radius: 50px;
-    float: right;    
+    float: right;
     transition: all 0.4s ease;
 }
 
-#logodon:hover{
+#logodon:hover {
     background-color: rgb(127, 127, 199);
     transition: all 0.2s ease;
 }
 
 
-#caixa2{
+#caixa2 {
     background-color: rgb(240, 214, 170);
 
     grid-column: 1/3;
     grid-row: 2/3;
-    
+
     display: flex;
     border-radius: 55px;
     max-height: 20em;
     justify-content: center;
     overflow: hidden;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); 
-    
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+
 }
 
-#caixa22{
+#caixa22 {
     background-image: url(apoio.jpg);
     background-size: cover;
 
     width: 100%;
-    
+
     display: flex;
     margin: 7em 0 7em 0;
     min-height: 35em;
     justify-content: center;
     overflow: hidden;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.425);
-    
-    
+
+
 }
 
-#ongs{
+#ongs {
     width: 400px;
     height: auto;
 }
 
-#titulo{
+#titulo {
     font-size: 50px;
     margin: 18px 4px 4px 1em;
 }
 
-#tituloONG{
+#tituloONG {
     font-size: 4em;
     font-weight: 800;
     margin: 18px 4px 4px 1em;
 }
 
-#donation{
+#donation {
     width: 600px;
     height: auto;
 }
 
-#caixa3{
+#caixa3 {
     background-color: aliceblue;
     grid-column: 1/3;
     grid-row: 1/2;
@@ -184,12 +209,12 @@ a:hover{
     border: 2px black solid;
 }
 
-.caixa4{
+.caixa4 {
     background-color: rgb(255, 255, 255);
     grid-column: 1/3;
     grid-row: 2/3;
     border-radius: 10px;
-    
+
     display: flex;
     align-items: center;
     width: 80%;
@@ -197,58 +222,68 @@ a:hover{
 }
 
 
-#box1{
+#box1 {
     display: flex;
 }
-#box2{
+
+#box2 {
     display: flex;
 }
-#box3{
+
+#box3 {
     display: flex;
 }
-#box4{
+
+#box4 {
     display: none;
 }
-#box5{
+
+#box5 {
     display: none;
 }
-#box6{
+
+#box6 {
     display: none;
 }
-#box7{
+
+#box7 {
     display: none;
 }
-#box8{
+
+#box8 {
     display: none;
 }
-#box9{
+
+#box9 {
     display: none;
 }
-#box10{
+
+#box10 {
     display: none;
 }
-#box11{
+
+#box11 {
     display: none;
 }
 
 
 
 
-#direita{
+#direita {
     display: flex;
     align-items: center;
     width: 50%;
 }
 
-.passagem{
+.passagem {
     margin: 2em;
-    border: 1px white solid ;
+    border: 1px white solid;
     border-radius: 20px;
     background-color: aliceblue;
     font-size: 2em;
 }
 
-#vinda{
+#vinda {
     margin-right: 10px;
     margin: 1em;
     transition: all 0.5s ease;
@@ -256,7 +291,7 @@ a:hover{
 
 
 
-#ida{
+#ida {
     margin-left: 10px;
     margin: 1em;
     transition: all 0.5s ease;
@@ -266,14 +301,15 @@ a:hover{
 
 
 
-#oesquerda{
+#oesquerda {
     width: 40%;
 }
-#odireita{
+
+#odireita {
     width: 60%;
 }
 
-.itemimg{
+.itemimg {
     padding-left: 1em;
     width: auto;
     margin: 2em;
@@ -282,55 +318,55 @@ a:hover{
     transition: all 0.5s ease;
 }
 
-.itemimg:hover{
+.itemimg:hover {
     padding-left: 1em;
     width: 80%;
     height: auto;
     border-radius: 20px;
     transition: all 0.5s ease;
-   
+
 }
 
-.itemtitulo{
+.itemtitulo {
     padding-left: 40px;
     font-size: 3em;
     height: auto;
     margin-top: 0;
     margin-bottom: 0;
 }
-.itemdescricao{
+
+.itemdescricao {
     height: auto;
     padding-left: 40px;
     margin-top: 0;
-    
+
     font-family: "Hind Mysuru", sans-serif;
     line-height: 1.2;
     font-weight: 400;
 }
 
-.olhada{
+.olhada {
     background-color: rgba(240, 248, 255, 0);
     margin-left: 40px;
     margin-top: 0;
-    padding: 1em;
     border-radius: 20px;
     border: 0;
 }
 
 
-.flexa{
-    font-size: 4em;
+.flexa {
+    font-size: 3em;
     transition: all 0.8s ease;
     /* box-shadow: 1px 1px 20px 10px rgba(240, 248, 255, 0.466); */
     width: auto;
 }
 
-.flexa:hover{
-    font-size: 5em;
-    transition: all 0.8s ease;
+.flexa:hover {
+    margin-left: 10px;
+    transition: all 0.2s ease-in-out;
 }
 
-.interrogacao{
+.interrogacao {
     margin: 5px;
     font-size: 3em;
     height: 55px;
@@ -340,7 +376,7 @@ a:hover{
     transition: all 1.5s ease;
 }
 
-.interrogacao:hover{
+.interrogacao:hover {
     margin: 5px;
     font-size: 3em;
     height: 55px;
@@ -351,70 +387,70 @@ a:hover{
     transition: all 0.8s ease;
 }
 
-.i1{
+.i1 {
     width: 15em;
     height: 10em;
-    
+
     margin: 2em;
     border-radius: 10px;
     border: rgba(0, 0, 0, 0.507) 1px solid;
 }
 
-#foto1{
+#foto1 {
     background-image: url(fmesa.jpg);
     background-size: cover;
     display: block;
 }
 
-#foto2{
+#foto2 {
     background-image: url(casaco.jpg);
     background-size: cover;
     display: block;
 }
 
-#foto3{
+#foto3 {
     background-image: url(flivros.webp);
     background-size: cover;
     display: block;
 }
 
-#foto4{
+#foto4 {
     background-image: url(fvitrola.avif);
     background-size: cover;
     display: block;
 }
 
-#foto5{
+#foto5 {
     background-image: url(fsofa.webp);
     background-size: cover;
 }
 
-#foto6{
+#foto6 {
     background-image: url(ftool.jpg);
     background-size: cover;
 }
 
-#foto7{
+#foto7 {
     background-image: url(fbike.webp);
     background-size: cover;
 }
 
-#foto8{
+#foto8 {
     background-image: url(fpatinete.avif);
     background-size: cover;
 }
 
-#foto9{
+#foto9 {
     background-image: url(fpic.webp);
     background-size: cover;
 }
 
-#foto10{
+#foto10 {
     background-image: url(fcam.jpg);
     background-size: cover;
 }
 
-#foto11{
+#foto11 {
     background-image: url(fmang.webp);
     background-size: cover;
 }
@@ -422,17 +458,17 @@ a:hover{
 
 
 
-.t1{
+.t1 {
     margin-left: 5em;
     transition: all 0.5s ease;
 }
 
-#t1:hover{
+#t1:hover {
     font-size: 18px;
     transition: all 0.5s ease;
 }
 
-#t2{
+#t2 {
     width: 70%;
     margin-left: 3em;
     font-family: "Hind Mysuru", sans-serif;
@@ -440,7 +476,7 @@ a:hover{
     font-weight: 400;
 }
 
-#t2ONG{
+#t2ONG {
     width: 80%;
     margin-left: 3em;
     font-family: "Hind Mysuru", sans-serif;
@@ -449,16 +485,16 @@ a:hover{
     line-height: 1.2;
 }
 
-#redirencionamento{
-    margin:0 0 3em 3em;
+#redirencionamento {
+    margin: 0 0 3em 3em;
     font-size: 18px;
     border-radius: 20px;
     border: 0;
     transition: all 0.5s ease;
 }
 
-#redirencionamento:hover{
-    margin:0 0 3em 3em;
+#redirencionamento:hover {
+    margin: 0 0 3em 3em;
     font-size: 20px;
     border-radius: 20px;
     padding: 3px;
@@ -466,18 +502,18 @@ a:hover{
     transition: all 0.5s ease;
 }
 
-#base{
+#base {
     display: flex;
     margin: auto;
 }
 
-.choice{
+.choice {
     margin: 3em;
     padding: 3em;
     border: 2px black solid;
 }
 
-#caixa5{
+#caixa5 {
     background-color: aliceblue;
     grid-column: 1/3;
     grid-row: 3/4;
@@ -486,7 +522,7 @@ a:hover{
     display: flex;
     align-self: center;
     width: 80%;
-    
+
     font-family: "Hind Mysuru", sans-serif;
     font-weight: 400;
 
@@ -495,18 +531,18 @@ a:hover{
     padding: 1em;
 }
 
-.foottext{
+.foottext {
     height: auto;
     margin-top: 0;
     text-decoration: underline;
     font-size: 17px;
 }
 
-.foottext:hover{
+.foottext:hover {
     color: red;
 }
 
-#sobre{
+#sobre {
     position: fixed;
     background-color: rgba(223, 190, 190, 0.808);
     display: none;
@@ -519,21 +555,21 @@ a:hover{
 
 
 
-#sfala{
+#sfala {
     width: 50%;
     font-size: 2em;
     margin: auto;
     padding: 2em;
 }
 
-#sentendido{
+#sentendido {
     width: 10em;
     font-size: 2em;
     padding: 2em
 }
 
 
-#produto{
+#produto {
     height: 100vh;
     width: 100%;
     background-color: rgba(156, 151, 151, 0.61);
@@ -549,7 +585,7 @@ a:hover{
     font-weight: 400;
 }
 
-#donationbox{
+#donationbox {
     transition: all 0.5s ease;
     width: 900px;
     height: 600px;
@@ -561,14 +597,14 @@ a:hover{
     padding: 10px;
 }
 
-#donimg{
+#donimg {
     width: 100%;
-    height: 15em;
+    height: auto;
     margin: 2em;
     transition: all 0.5s ease;
 }
 
-#donl{
+#donl {
     width: 450px;
     height: 600px;
     display: flex;
@@ -577,7 +613,7 @@ a:hover{
     padding: 1em;
 }
 
-#correios{
+#correios {
     background-color: rgba(229, 241, 58, 0.692);
     width: 70%;
     margin: 7em 1em;
@@ -589,12 +625,12 @@ a:hover{
     transition: all 0.1s ease;
 }
 
-#correios:hover{
+#correios:hover {
     border: 2px gray solid;
     transition: all 0.1s ease;
 }
 
-#donr{
+#donr {
     width: 450px;
     height: 600px;
     display: flex;
@@ -602,19 +638,19 @@ a:hover{
     padding: 1em;
 }
 
-#h1obj{
+#h1obj {
     margin: 0 0 0 0;
     font-size: 3em;
 }
 
-.dondesc{
+.dondesc {
     margin: 0;
     font-size: 18px;
     color: rgb(92, 92, 92);
-    
+
 }
 
-#sairitem{
+#sairitem {
     margin-top: 2em;
     text-decoration: underline;
     margin-left: 95%;
@@ -622,6 +658,6 @@ a:hover{
     font-size: 2em;
 }
 
-#sairitem:hover{
+#sairitem:hover {
     color: rgb(138, 12, 12);
 }
