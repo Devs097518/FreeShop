@@ -8,6 +8,327 @@
 
 html {
     scroll-behavior: smooth;
+    margin: auto;
+}
+
+
+@media (min-width: 150px) {
+
+    .retbig {
+        margin: auto;
+        padding: 25px;
+    }
+
+    .isrow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .iscolumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .itemtitulo {
+        font-size: 3em;
+        margin-left: 0;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .itemdescricao {
+        height: auto;
+        margin-top: 0;
+
+        font-family: "Hind Mysuru", sans-serif;
+        line-height: 1.2;
+        font-weight: 400;
+    }
+
+    .olhada {
+        background-color: rgba(240, 248, 255, 0);
+        margin-top: 0;
+
+        margin-bottom: 30px;
+        border-radius: 20px;
+        border: 0;
+    }
+
+
+    #all1 {
+
+        color: rgb(117, 71, 25);
+        grid-template-columns: auto, 3;
+        grid-template-rows: auto, 3;
+        background-color: rgb(204, 204, 204);
+
+
+
+        border-radius: 0 0 55px 55px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
+        padding: 0;
+        display: grid;
+        gap: 25px;
+    }
+
+    #caixa1 {
+        border-radius: 0 0 100px 100px;
+    }
+
+    #caixa2 {
+        border-radius: 0px 0px 200px 200px 0 0;
+        border-bottom: 2px rgb(117, 71, 25) solid;
+    }
+
+    #ongs {
+        width: 150px;
+        height: auto;
+    }
+
+    #caixa22 {
+        color: rgb(0, 0, 0);
+        background-color: rgb(217, 180, 139);
+        background-size: cover;
+        width: 100%;
+
+        display: flex;
+        margin: 7em 0 7em 0;
+        min-height: 35em;
+        justify-content: center;
+        overflow: hidden;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.425);
+
+
+    }
+
+    #sfala {
+        width: 70%;
+        font-size: 25px;
+        margin: auto;
+        padding: 2em;
+        text-align: center;
+    }
+
+    #sentendido {
+        width: 10em;
+        font-size: 20px;
+        padding: 2em
+    }
+
+
+    #donationbox {
+        transition: all 0.5s ease;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(102, 73, 46);
+        margin: auto;
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+
+
+    #donimg {
+        width: auto;
+        height: 10em;
+        margin: 0 2em 0 2em;
+        transition: all 0.5s ease;
+    }
+
+    
+#h1obj {
+    margin: 0 0 0 2em;
+    font-size: 3em;
+}
+
+#informacoesdoe {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em
+}
+
+#correios {
+    background-color: rgba(229, 241, 58, 0.692);
+    width: 70%;
+    margin: 7em 1em;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px gray solid;
+    padding: 40px;
+    transition: all 0.1s ease;
+
+    
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-bottom: 37px;
+    padding-bottom: 10px;
+
+}
+
+#sairitem {
+    margin-top: 2em;
+    text-decoration: underline;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 2em;
+}
+
+#donr {
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#dondescription{
+    width: 80%;
+}
+
+}
+
+
+
+
+@media (min-width: 450px) {
+    .retbig {
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .retfull {
+        width: 100%;
+    }
+
+    .isrow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iscolumn {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .itemtitulo {
+        padding-left: 40px;
+        font-size: 3em;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .itemdescricao {
+        height: auto;
+        padding-left: 40px;
+        margin-top: 0;
+
+        font-family: "Hind Mysuru", sans-serif;
+        line-height: 1.2;
+        font-weight: 400;
+    }
+
+    .olhada {
+        background-color: rgba(240, 248, 255, 0);
+        margin-left: 40px;
+        margin-top: 0;
+        border-radius: 20px;
+        border: 0;
+    }
+
+    #all1 {
+
+        color: rgb(117, 71, 25);
+        grid-template-columns: auto, 3;
+        grid-template-rows: auto, 3;
+        background-color: rgb(204, 204, 204);
+
+
+
+        border-radius: 0 0 55px 55px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
+        padding: 20px;
+        display: grid;
+        gap: 25px;
+    }
+
+    #ongs {
+        width: 200px;
+        height: auto;
+    }
+
+    #caixa22 {
+        background-image: url(apoio.jpg);
+        background-size: cover;
+        width: 100%;
+
+        display: flex;
+        margin: 7em 0 7em 0;
+        min-height: 35em;
+        justify-content: center;
+        overflow: hidden;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.425);
+    }
+
+    #caixa1 {
+        border-radius: 100px;
+    }
+
+
+    #donationbox {
+        transition: all 0.5s ease;
+        width: 900px;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(102, 73, 46);
+        margin: auto;
+        padding: 10px;
+    }
+
+
+    #donimg {
+        width: 100%;
+        height: auto;
+        margin: 2em;
+        transition: all 0.5s ease;
+    }
+
+    
+#h1obj {
+    margin: 0 0 0 0;
+    font-size: 3em;
+}
+
+#informacoesdoe {
+    display: flex;
+    flex-direction: row;
+}
+
+#correios {
+    background-color: rgba(229, 241, 58, 0.692);
+    width: 70%;
+    margin: 7em 1em;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px gray solid;
+    padding: 40px;
+    transition: all 0.1s ease;
+}
+
+#donr {
+    width: 450px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
 }
 
 body {
@@ -16,21 +337,6 @@ body {
     font-weight: 800;
     background-image: url(textura7.jpg);
     background-repeat: repeat;
-}
-
-#all1 {
-    display: grid;
-    color: rgb(117, 71, 25);
-    grid-template-columns: auto, 3;
-    grid-template-rows: auto, 3;
-    background-color: rgb(204, 204, 204);
-
-    width: 80%;
-    margin: auto;
-    gap: 25px;
-    border-radius: 0 0 55px 55px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
-    padding: 20px;
 }
 
 #all2 {
@@ -44,8 +350,6 @@ body {
     background-color: rgba(219, 182, 139, 0.856);
 
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
-    width: 80%;
-    margin: auto;
     margin-bottom: 7em;
     gap: 10px;
     padding: 10px;
@@ -54,7 +358,7 @@ body {
 
 #infodonate {
     display: flex;
-    padding: 3em;
+    padding: 10px;
     margin-bottom: 0;
     border-radius: 10px;
     color: rgb(0, 0, 0);
@@ -62,17 +366,16 @@ body {
     background-image: url(textura2.jpg);
     background-repeat: repeat;
 
-
+    box-sizing: border-box;
+    width: 100%;
     font-family: "Hind Mysuru", sans-serif;
     font-size: 25px;
     text-align: center;
+    overflow: hidden;
     font-weight: 300;
 }
 
-#informacoesdoe {
-    display: flex;
-    flex-direction: row;
-}
+
 
 #id1 {
     width: 50%;
@@ -86,11 +389,11 @@ body {
     flex-direction: column;
 }
 
-.canto{
+.canto {
     line-height: 15px;
 }
 
-#linkcorreio{
+#linkcorreio {
     color: red;
 }
 
@@ -98,7 +401,9 @@ body {
     background-color: aliceblue;
     grid-column: 1/3;
     grid-row: 1/2;
-    border-radius: 100px;
+
+    box-sizing: border-box;
+    width: 100%;
 
     display: flex;
     align-items: center;
@@ -151,39 +456,17 @@ a:hover {
 
 #caixa2 {
     background-color: rgb(240, 214, 170);
-
     grid-column: 1/3;
     grid-row: 2/3;
+    box-sizing: border-box;
 
-    display: flex;
-    border-radius: 55px;
-    max-height: 20em;
+    max-width: 100%;
     justify-content: center;
     overflow: hidden;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 
 }
 
-#caixa22 {
-    background-image: url(apoio.jpg);
-    background-size: cover;
-
-    width: 100%;
-
-    display: flex;
-    margin: 7em 0 7em 0;
-    min-height: 35em;
-    justify-content: center;
-    overflow: hidden;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.425);
-
-
-}
-
-#ongs {
-    width: 400px;
-    height: auto;
-}
 
 #titulo {
     font-size: 50px;
@@ -272,7 +555,8 @@ a:hover {
 #direita {
     display: flex;
     align-items: center;
-    width: 50%;
+    justify-content: space-between;
+
 }
 
 .passagem {
@@ -327,37 +611,9 @@ a:hover {
 
 }
 
-.itemtitulo {
-    padding-left: 40px;
-    font-size: 3em;
-    height: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.itemdescricao {
-    height: auto;
-    padding-left: 40px;
-    margin-top: 0;
-
-    font-family: "Hind Mysuru", sans-serif;
-    line-height: 1.2;
-    font-weight: 400;
-}
-
-.olhada {
-    background-color: rgba(240, 248, 255, 0);
-    margin-left: 40px;
-    margin-top: 0;
-    border-radius: 20px;
-    border: 0;
-}
-
-
 .flexa {
     font-size: 3em;
     transition: all 0.8s ease;
-    /* box-shadow: 1px 1px 20px 10px rgba(240, 248, 255, 0.466); */
     width: auto;
 }
 
@@ -368,7 +624,7 @@ a:hover {
 
 .interrogacao {
     margin: 5px;
-    font-size: 3em;
+    font-size: 2em;
     height: 55px;
     background-color: rgba(240, 248, 255, 0);
     border: 0;
@@ -459,7 +715,6 @@ a:hover {
 
 
 .t1 {
-    margin-left: 5em;
     transition: all 0.5s ease;
 }
 
@@ -521,12 +776,10 @@ a:hover {
 
     display: flex;
     align-self: center;
-    width: 80%;
 
     font-family: "Hind Mysuru", sans-serif;
     font-weight: 400;
 
-    margin: auto;
     justify-content: space-evenly;
     padding: 1em;
 }
@@ -554,21 +807,6 @@ a:hover {
 }
 
 
-
-#sfala {
-    width: 50%;
-    font-size: 2em;
-    margin: auto;
-    padding: 2em;
-}
-
-#sentendido {
-    width: 10em;
-    font-size: 2em;
-    padding: 2em
-}
-
-
 #produto {
     height: 100vh;
     width: 100%;
@@ -585,24 +823,7 @@ a:hover {
     font-weight: 400;
 }
 
-#donationbox {
-    transition: all 0.5s ease;
-    width: 900px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(102, 73, 46);
-    margin: auto;
-    padding: 10px;
-}
 
-#donimg {
-    width: 100%;
-    height: auto;
-    margin: 2em;
-    transition: all 0.5s ease;
-}
 
 #donl {
     width: 450px;
@@ -613,35 +834,15 @@ a:hover {
     padding: 1em;
 }
 
-#correios {
-    background-color: rgba(229, 241, 58, 0.692);
-    width: 70%;
-    margin: 7em 1em;
-    text-align: center;
-    font-size: 17px;
-    border-radius: 20px;
-    border: 1px gray solid;
-    padding: 40px;
-    transition: all 0.1s ease;
-}
+
 
 #correios:hover {
     border: 2px gray solid;
     transition: all 0.1s ease;
 }
 
-#donr {
-    width: 450px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-}
 
-#h1obj {
-    margin: 0 0 0 0;
-    font-size: 3em;
-}
+
 
 .dondesc {
     margin: 0;
@@ -650,13 +851,7 @@ a:hover {
 
 }
 
-#sairitem {
-    margin-top: 2em;
-    text-decoration: underline;
-    margin-left: 95%;
-    margin-top: 2%;
-    font-size: 2em;
-}
+
 
 #sairitem:hover {
     color: rgb(138, 12, 12);
