@@ -18,7 +18,6 @@ Este site foi desenvolvido com o intuito de promover a doação para pessoas que
 [FreeShop](https://freeshop.onrender.com/)
 
 ## Melhoras Futuras
-- Integração de responsividade
 - Melhorias no design
 
 ## Autor
