@@ -84,7 +84,7 @@ let pagina3 = () => {
 let f1 = () => {
     h1obj.innerHTML = 'Mesa';
     donimg.src = 'fmesa.jpg';
-    dondescription.textContent = 'pois é casa, tenho uma mesa e não vou me mudar, estou colocando para a doação!';
+    dondescription.textContent = 'pois é, tenho uma mesa e vou me mudar, estou colocando para doação!';
     id2.innerHTML = 'Brasília(DF) <br> 14/12/2024 <br> (50) 99885-1234';
 };
 let f2 = () => {
@@ -230,7 +230,7 @@ subir = () => {
 cenario1 = () => {
     ongs.src = 'inec.png';
     titulo.textContent = 'Ajude O Nordeste';
-    t2.textContent = 'Fundado em 1993, o Instituto Nordeste Cidadania (Inec) é uma Organização da Sociedade Civil qualificada como Organização da Sociedade Civil de Interesse Público (Oscip) desde 2003, que tem como foco principal o desenvolvimento sustentável de comunidades na região Nordeste do Brasil. Essa qualificação permitiu que o Inec fizesse parcerias com o Banco do Nordeste para criar dois programas de microcrédito: o Crediamigo, para microempreendedores urbanos, até o final do ano de 2022, e o Agroamigo, para agricultores familiares rurais. Com esses programas, o Inec chegou a beneficar cerca de 3,6 milhões de pessoas por ano. Além dos programas de microcrédito, o Inec também investe em projetos culturais, tecnológicos e comunitários para crianças, jovens e adultos. Esses projetos ajudam a desenvolver uma cultura local e regional sustentável, de acordo com os Objetivos do Desenvolvimento Sustentável (ODS). O Inec conta atualmente com mais de dois mil colaboradores nos nove estados do Nordeste e nas regiões norte dos estados de Minas Gerais e Espírito Santo.';
+    t2.textContent = 'Fundado em 1993, o Instituto Nordeste Cidadania (Inec) é uma Organização da Sociedade Civil qualificada como Organização da Sociedade Civil de Interesse Público (Oscip) desde 2003, que tem como foco principal o desenvolvimento sustentável de comunidades na região Nordeste do Brasil. Essa qualificação permitiu que o Inec fizesse parcerias com o Banco do Nordeste para criar dois programas de microcrédito: o Crediamigo, para microempreendedores urbanos, até o final do ano de 2022, e o Agroamigo, para agricultores familiares rurais. Com esses programas, o Inec chegou a beneficar cerca de 3,6 milhões de pessoas por ano.';
     paraONG.href = 'https://inec.org.br/';
 
 };

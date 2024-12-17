@@ -54,12 +54,7 @@
                 Essa qualificação permitiu que o Inec fizesse parcerias com o Banco do Nordeste para criar dois
                 programas de microcrédito: o Crediamigo, para microempreendedores urbanos, até o final do ano de 2022, e
                 o Agroamigo, para agricultores familiares rurais. Com esses programas, o Inec chegou a beneficar cerca
-                de 3,6 milhões de pessoas por ano.
-                Além dos programas de microcrédito, o Inec também investe em projetos culturais, tecnológicos e
-                comunitários para crianças, jovens e adultos. Esses projetos ajudam a desenvolver uma cultura local e
-                regional sustentável, de acordo com os Objetivos do Desenvolvimento Sustentável (ODS).
-                O Inec conta atualmente com mais de dois mil colaboradores nos nove estados do Nordeste e nas regiões
-                norte dos estados de Minas Gerais e Espírito Santo.</p>
+                de 3,6 milhões de pessoas por ano.</p>
             <a id="paraONG" href="https://inec.org.br/" target="_blank">
                 <button id="redirencionamento">conheça o site oficial <i class="bi bi-box-arrow-up-right"></i></button>
             </a>
@@ -68,9 +63,9 @@
 
 
         <div id="direita">
-            <button class="passagem" id="vinda"><i class="bi bi-arrow-left"></i></button>
+            <a href="#caixa22"><button class="passagem" id="vinda"><i class="bi bi-arrow-left"></i></button></a>
             <img src="inec.png" alt="" id="ongs">
-            <button class="passagem" id="ida"><i class="bi bi-arrow-right"></i></button>
+            <a href="#caixa22"><button class="passagem" id="ida"><i class="bi bi-arrow-right"></i></button></a>
         </div>
         <button class="interrogacao"><i class="bi bi-question-circle"></i></button>
 
@@ -84,10 +79,11 @@
 
     <div id="all2" class="retbig isrow">
         <div id="infodonate" class="iscolumn">
-            <p style='font-family: "Annie Use Your Telescope", cursive;'>Esta é a área dos itens que foram colocados para doação. Se você tiver vontade de pegar para você, é
+            <p style='font-family: "Annie Use Your Telescope", cursive;'>Esta é a área dos itens que foram colocados
+                para doação. Se você tiver vontade de pegar para você, é
                 necessário apenas entrar em contato com o doador, atáves do número de contato que está junto das demais
                 informações do item para combinarem qual a melhor forma para a entrega chegar até você.</p>
-            <img src="donation.png" alt="" style="width: 500px; height: auto;">
+            <img src="donation.png" id="caixadedoacao" alt="" style="width: 500px; height: auto;">
         </div>
 
         <div class="caixa4 iscolumn" id="box1">
@@ -237,11 +233,16 @@
 
 
 
-        <div id="base">
-            <input id="check1" type="radio" name="tres" value="valor1" class="choice"></input>
-            <input id="check2" type="radio" name="tres" value="valor2" class="choice"></input>
-            <input id="check3" type="radio" name="tres" value="valor3" class="choice"></input>
-        </div>
+
+        <a href="#caixadedoacao">
+            <div id="base">
+                <input id="check1" type="radio" name="tres" value="valor1" class="choice"></input>
+                <input id="check2" type="radio" name="tres" value="valor2" class="choice"></input>
+                <input id="check3" type="radio" name="tres" value="valor3" class="choice"></input>
+            </div>
+        </a>
+
+
 
 
 
@@ -273,7 +274,8 @@
         <div id="donationbox" class="iscolumn">
             <div id="donl">
                 <img src="livros.jpg" id="donimg" alt="">
-                <p id="dondescription">Descrição : São livros que eu lia quando era criança, é da Saga de 'O Senhor dos Anéis', é uma
+                <p id="dondescription">Descrição : São livros que eu lia quando era criança, é da Saga de 'O Senhor dos
+                    Anéis', é uma
                     aventura incrível e eu gostaria de fazer com que outras pessoas tivessem a mesma experiência. Está
                     em ótimo estado, não risquei nem nada. Pode deixar que o a entrega fica por minha conta!</p>
 
@@ -282,24 +284,25 @@
                 <p class="dondesc" id="sairitem"><i class="bi bi-x-circle"></i></p>
                 <h1 id="h1obj">Objeto x</h1>
                 <p class="dondesc">
-                    <div id="informacoesdoe">
-                        <div id="id1">
-                            <i class="bi bi-pin-angle canto">local : </i>
-                            <i class="bi bi-calendar-date canto"> data de publicação : </i>
-                            <i class="bi bi-telephone-forward canto"> telefone : </i>
-                        </div>
-                        <div id="id2">
-                            Brasilia <br>
-                            20/12/2024 <br>
-                            (55) 81 9898-23324 <br>
-                        </div>
+                <div id="informacoesdoe">
+                    <div id="id1">
+                        <i class="bi bi-pin-angle canto">local : </i>
+                        <i class="bi bi-calendar-date canto"> data de publicação : </i>
+                        <i class="bi bi-telephone-forward canto"> telefone : </i>
                     </div>
-                    
-                    
-                    
+                    <div id="id2">
+                        Brasilia <br>
+                        20/12/2024 <br>
+                        (55) 81 9898-23324 <br>
+                    </div>
+                </div>
+
+
+
 
                 <div id="correios" title="clicando aqui, tu vai para o site oficial dos Correios">
-                    <p id="textocorreio">clicando <a id="linkcorreio" href="https://www2.correios.com.br/sistemas/precosPrazos/" target="_blank">aqui</a>,
+                    <p id="textocorreio">clicando <a id="linkcorreio"
+                            href="https://www2.correios.com.br/sistemas/precosPrazos/" target="_blank">aqui</a>,
                         você irá para o site oficial dos correios para planejar a entrega da doação. Converse sobre isso
                         com o doador para ser combinado o melhor meio de envio.
                     </p>
